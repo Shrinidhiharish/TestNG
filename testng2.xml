@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="unit testing">
+	<test name="package testing">
+	<packages>
+	<package name="basics"/>
+	</packages>
+	
+</test>
+</suite> <!-- Suite -->
