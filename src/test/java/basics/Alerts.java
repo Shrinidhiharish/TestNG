@@ -1,16 +1,18 @@
 package basics;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Alerts {
 
-	@Test
+	@AfterTest
 	public void dismiss()
 	{
 		System.out.println("Lets Learn about prioitising");
 	}
 	
-	@Test
+	@BeforeTest
 	public void accept()
 	{
 		System.out.println("second method");
@@ -22,7 +24,7 @@ public class Alerts {
 		System.out.println("Third method");
 	}
 	
-	@Test
+	@Test(groups= {"smoke"})
 	public void otherssecond()
 	{
 		System.out.println("Second_Third method");

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Login {
 
-	@Test
+	@Test(groups= {"smoke"})
 	public void method1()
 	{
 		System.out.println("running the code from testNG complier");

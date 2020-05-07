@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="unit testing">
+<suite name="unit testing" parallel ="tests" thread-count="2">
+<listeners>
+<listener class-name="basics.Listeners"/>
+
+</listeners>
 	<test name="UI Testing">
 		<classes>
 			<class name="basics.Login" />
