@@ -1,63 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="unit testing" duration-ms="94" started-at="2020-05-07T15:18:08Z" finished-at="2020-05-07T15:18:08Z">
+  <suite name="Regression Test Suite" duration-ms="11067" started-at="2020-05-09T15:20:27Z" finished-at="2020-05-09T15:20:38Z">
     <groups>
-      <group name="smoke">
-        <method signature="CheckBoxs.method1()[pri:0, instance:basics.CheckBoxs@9629756]" name="method1" class="basics.CheckBoxs"/>
-        <method signature="Login.method1()[pri:0, instance:basics.Login@7f9a81e8]" name="method1" class="basics.Login"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="UI Testing" duration-ms="94" started-at="2020-05-07T15:18:08Z" finished-at="2020-05-07T15:18:08Z">
-      <class name="basics.CheckBoxs">
-        <test-method status="PASS" signature="method2()[pri:0, instance:basics.CheckBoxs@9629756]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
+    <test name=" Screen 1 Scenarios" duration-ms="11067" started-at="2020-05-09T15:20:27Z" finished-at="2020-05-09T15:20:38Z">
+      <class name="asserstions.Timeout">
+        <test-method status="PASS" signature="myTest1()[pri:0, instance:asserstions.Timeout@5d5eef3d]" name="myTest1" duration-ms="6032" started-at="2020-05-09T20:50:27Z" finished-at="2020-05-09T20:50:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method1()[pri:0, instance:basics.CheckBoxs@9629756]" name="method1" duration-ms="3" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
+        </test-method> <!-- myTest1 -->
+        <test-method status="FAIL" signature="myTest2()[pri:0, instance:asserstions.Timeout@5d5eef3d]" name="myTest2" duration-ms="5018" started-at="2020-05-09T20:50:33Z" finished-at="2020-05-09T20:50:38Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:basics.CheckBoxs@9629756]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method4()[pri:0, instance:basics.CheckBoxs@9629756]" name="method4" duration-ms="4" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method4 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:basics.CheckBoxs@9629756]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method5()[pri:0, instance:basics.CheckBoxs@9629756]" name="method5" duration-ms="2" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method5 -->
-      </class> <!-- basics.CheckBoxs -->
-      <class name="basics.Login">
-        <test-method status="PASS" signature="method1()[pri:0, instance:basics.Login@7f9a81e8]" name="method1" duration-ms="12" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:basics.Login@7f9a81e8]" name="method2" duration-ms="3" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-      </class> <!-- basics.Login -->
-    </test> <!-- UI Testing -->
-    <test name="component testing" duration-ms="24" started-at="2020-05-07T15:18:08Z" finished-at="2020-05-07T15:18:08Z">
-      <class name="basics.Alerts">
-        <test-method status="PASS" signature="accept()[pri:0, instance:basics.Alerts@2b98378d]" name="accept" is-config="true" duration-ms="15" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accept -->
-        <test-method status="PASS" signature="dismiss()[pri:0, instance:basics.Alerts@2b98378d]" name="dismiss" is-config="true" duration-ms="2" started-at="2020-05-07T20:48:08Z" finished-at="2020-05-07T20:48:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dismiss -->
-      </class> <!-- basics.Alerts -->
-    </test> <!-- component testing -->
-  </suite> <!-- unit testing -->
+        </test-method> <!-- myTest2 -->
+      </class> <!-- asserstions.Timeout -->
+    </test> <!--  Screen 1 Scenarios -->
+  </suite> <!-- Regression Test Suite -->
 </testng-results>

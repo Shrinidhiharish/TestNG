@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite time-out="5000" name="Regression Test Suite">
+
+
+<test name=" Screen 1 Scenarios">
+
+
+<classes>
+
+<class name="asserstions.Timeout"/>
+
+</classes>
+
+</test>
+
+</suite>
