@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="IExecution Suite">
+
+
+<listeners>
+
+<listener class-name="ItestListeners.IExecutionListenerExample"/>
+
+</listeners>
+
+
+<test name="IExecution test">
+
+ssss
+<classes>
+
+<class name="ItestListeners.IExecutionListenerTestCaseExample"/>
+
+</classes>
+
+</test>
+
+</suite>

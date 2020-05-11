@@ -1,52 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Test Suite" duration-ms="11067" started-at="2020-05-09T15:20:27Z" finished-at="2020-05-09T15:20:38Z">
+  <suite name="Paralle Classes Test Suite" duration-ms="98" started-at="2020-05-11T09:15:23Z" finished-at="2020-05-11T09:15:23Z">
     <groups>
     </groups>
-    <test name=" Screen 1 Scenarios" duration-ms="11067" started-at="2020-05-09T15:20:27Z" finished-at="2020-05-09T15:20:38Z">
-      <class name="asserstions.Timeout">
-        <test-method status="PASS" signature="myTest1()[pri:0, instance:asserstions.Timeout@5d5eef3d]" name="myTest1" duration-ms="6032" started-at="2020-05-09T20:50:27Z" finished-at="2020-05-09T20:50:33Z">
+    <test name="Parallel Classes Scenarios" duration-ms="98" started-at="2020-05-11T09:15:23Z" finished-at="2020-05-11T09:15:23Z">
+      <class name="parallelExecution.ParallelClassesExample2">
+        <test-method status="PASS" signature="testCase5()[pri:0, instance:parallelExecution.ParallelClassesExample2@643b1d11]" name="testCase5" duration-ms="18" started-at="2020-05-11T14:45:23Z" finished-at="2020-05-11T14:45:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myTest1 -->
-        <test-method status="FAIL" signature="myTest2()[pri:0, instance:asserstions.Timeout@5d5eef3d]" name="myTest2" duration-ms="5018" started-at="2020-05-09T20:50:33Z" finished-at="2020-05-09T20:50:38Z">
-          <exception class="java.lang.ArrayIndexOutOfBoundsException">
-            <message>
-              <![CDATA[0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 0
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+        </test-method> <!-- testCase5 -->
+        <test-method status="PASS" signature="testCase6()[pri:0, instance:parallelExecution.ParallelClassesExample2@643b1d11]" name="testCase6" duration-ms="4" started-at="2020-05-11T14:45:23Z" finished-at="2020-05-11T14:45:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myTest2 -->
-      </class> <!-- asserstions.Timeout -->
-    </test> <!--  Screen 1 Scenarios -->
-  </suite> <!-- Regression Test Suite -->
+        </test-method> <!-- testCase6 -->
+        <test-method status="PASS" signature="testCase7()[pri:0, instance:parallelExecution.ParallelClassesExample2@643b1d11]" name="testCase7" duration-ms="5" started-at="2020-05-11T14:45:23Z" finished-at="2020-05-11T14:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase7 -->
+        <test-method status="PASS" signature="testCase8()[pri:0, instance:parallelExecution.ParallelClassesExample2@643b1d11]" name="testCase8" duration-ms="2" started-at="2020-05-11T14:45:23Z" finished-at="2020-05-11T14:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase8 -->
+      </class> <!-- parallelExecution.ParallelClassesExample2 -->
+      <class name="parallelExecution.ParallelClassesExample1">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:parallelExecution.ParallelClassesExample1@6cc4c815]" name="testCase1" duration-ms="18" started-at="2020-05-11T14:45:23Z" finished-at="2020-05-11T14:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:parallelExecution.ParallelClassesExample1@6cc4c815]" name="testCase2" duration-ms="5" started-at="2020-05-11T14:45:23Z" finished-at="2020-05-11T14:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:parallelExecution.ParallelClassesExample1@6cc4c815]" name="testCase3" duration-ms="3" started-at="2020-05-11T14:45:23Z" finished-at="2020-05-11T14:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="testCase4()[pri:0, instance:parallelExecution.ParallelClassesExample1@6cc4c815]" name="testCase4" duration-ms="7" started-at="2020-05-11T14:45:23Z" finished-at="2020-05-11T14:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+      </class> <!-- parallelExecution.ParallelClassesExample1 -->
+    </test> <!-- Parallel Classes Scenarios -->
+  </suite> <!-- Paralle Classes Test Suite -->
 </testng-results>

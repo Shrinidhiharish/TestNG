@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Test Suite">
+
+
+<test name="Grouping Scenarios">
+
+
+<groups>
+
+
+<define name="All foods">
+
+<include name="Lunch"/>
+
+<include name="Breakfast"/>
+
+<include name="Dinner"/>
+
+</define>
+
+
+<define name="Lunch and Dinner">
+
+<include name="Lunch"/>
+
+<include name="Dinner"/>
+
+</define>
+
+
+<run>
+
+<include name="Lunch and Dinner"/>
+
+</run>
+
+</groups>
+
+
+<classes>
+
+<class name="grouping.GroupingExample"/>
+
+</classes>
+
+</test>
+
+</suite>

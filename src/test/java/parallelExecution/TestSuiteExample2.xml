@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Paralle Classes Test Suite">
+
+
+<test name="Parallel Classes Scenarios">
+
+
+<classes>
+
+<class name="parallelExecution.ParallelClassesExample1"/>
+
+<class name="parallelExecution.ParallelClassesExample2"/>
+
+</classes>
+
+</test>
+
+</suite>
